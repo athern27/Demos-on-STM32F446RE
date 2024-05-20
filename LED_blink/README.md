@@ -1,5 +1,5 @@
 # LED Blink Project
-<img src="stm32f446re.jpg" width=50% height=50%>
+<img src="stm32f446re.jpg" width=60% height=60%>
 ## Overview
 
 This project demonstrates how to use an interrupt to toggle an LED on and off, addressing the issue of key bouncing using a debouncing technique with interrupts and timers.
