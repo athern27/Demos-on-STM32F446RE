@@ -7,3 +7,7 @@ This project demonstrates how to use an interrupt to toggle an LED on and off, a
 ## Problem Statement
 
 Key bouncing is a common issue when using buttons, causing multiple triggers from a single press. Simple pull-up or pull-down methods are often insufficient to counteract this issue.
+
+## Demo
+
+![LED Blink Demo](demo.gif)
