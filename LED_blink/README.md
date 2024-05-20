@@ -1,5 +1,4 @@
 # LED Blink Project
-![Board Image](stm32f446re.jpg)
 <img src="stm32f446re.jpg" width=50% height=50%>
 ## Overview
 
