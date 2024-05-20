@@ -10,4 +10,4 @@ Key bouncing is a common issue when using buttons, causing multiple triggers fro
 
 ## Demo
 
-![LED Blink Demo](demo.gif)
+![LED Blink Demo](LED_Blink.gif)
