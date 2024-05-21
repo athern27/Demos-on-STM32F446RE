@@ -6,27 +6,27 @@ Welcome to the 20 Days of Embedded Programming Projects! This repository contain
 
 The repository is organized into folders, each corresponding to a specific day and project. Below is an overview of the folder structure:
 
-/
-├── [Day01_Blink_LED](Day01_Blink_LED)
-├── [Day02_Button_Interrupt](Day02_Button_Interrupt)
-├── [Day03_PWM_LED](Day03_PWM_LED)
-├── [Day04_ADC_Sensor](Day04_ADC_Sensor)
-├── [Day05_UART_Communication](Day05_UART_Communication)
-├── [Day06_I2C_Sensor](Day06_I2C_Sensor)
-├── [Day07_SPI_Display](Day07_SPI_Display)
-├── [Day08_Temperature_Sensor](Day08_Temperature_Sensor)
-├── [Day09_Humidity_Sensor](Day09_Humidity_Sensor)
-├── [Day10_OLED_Display](Day10_OLED_Display)
-├── [Day11_SD_Card_Logging](Day11_SD_Card_Logging)
-├── [Day12_RTC_Module](Day12_RTC_Module)
-├── [Day13_Motor_Control](Day13_Motor_Control)
-├── [Day14_Servo_Control](Day14_Servo_Control)
-├── [Day15_Ultrasonic_Sensor](Day15_Ultrasonic_Sensor)
-├── [Day16_Infrared_Sensor](Day16_Infrared_Sensor)
-├── [Day17_Bluetooth_Communication](Day17_Bluetooth_Communication)
-├── [Day18_WiFi_Communication](Day18_WiFi_Communication)
-├── [Day19_LoRa_Communication](Day19_LoRa_Communication)
-└── [Day20_AHT10_I2C_UART](Day20_AHT10_I2C_UART)
+/  
+├── [Day01_Blink_LED](Day01_Blink_LED)  
+├── [Day02_Button_Interrupt](Day02_Button_Interrupt)  
+├── [Day03_PWM_LED](Day03_PWM_LED)  
+├── [Day04_ADC_Sensor](Day04_ADC_Sensor)  
+├── [Day05_UART_Communication](Day05_UART_Communication)  
+├── [Day06_I2C_Sensor](Day06_I2C_Sensor)  
+├── [Day07_SPI_Display](Day07_SPI_Display)  
+├── [Day08_Temperature_Sensor](Day08_Temperature_Sensor)  
+├── [Day09_Humidity_Sensor](Day09_Humidity_Sensor)  
+├── [Day10_OLED_Display](Day10_OLED_Display)  
+├── [Day11_SD_Card_Logging](Day11_SD_Card_Logging)  
+├── [Day12_RTC_Module](Day12_RTC_Module)  
+├── [Day13_Motor_Control](Day13_Motor_Control)  
+├── [Day14_Servo_Control](Day14_Servo_Control)  
+├── [Day15_Ultrasonic_Sensor](Day15_Ultrasonic_Sensor)  
+├── [Day16_Infrared_Sensor](Day16_Infrared_Sensor)  
+├── [Day17_Bluetooth_Communication](Day17_Bluetooth_Communication)  
+├── [Day18_WiFi_Communication](Day18_WiFi_Communication)  
+├── [Day19_LoRa_Communication](Day19_LoRa_Communication)  
+└── [Day20_AHT10_I2C_UART](Day20_AHT10_I2C_UART)  
 
 
 Each folder contains:
