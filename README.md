@@ -1,3 +1,5 @@
+# Last Updated (22-05-24)
+
 # 20 Days of Embedded Programming Projects
 
 Welcome to the 20 Days of Embedded Programming Projects! This repository contains a series of projects aimed at improving your embedded programming skills, covering various sensors, communication protocols, and interfacing techniques. Each day, you will tackle a new project with detailed instructions and code examples.
