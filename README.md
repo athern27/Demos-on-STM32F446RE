@@ -9,8 +9,8 @@ Welcome to the 20 Days of Embedded Programming Projects! This repository contain
 The repository is organized into folders, each corresponding to a specific day and project. Below is an overview of the folder structure:
 
 /  
-├── [Day01_Blink_LED](Day01_Blink_LED)  
-├── [Day02_Button_Interrupt](Day02_Button_Interrupt)  
+├── [Day01_Blink_LED](Day01_Blink_LED_using_interrupt)  
+├── [Day20_AHT10_I2C_UART](Day20_AHT10_I2C_UART)  
 ├── [Day03_PWM_LED](Day03_PWM_LED)  
 ├── [Day04_ADC_Sensor](Day04_ADC_Sensor)  
 ├── [Day05_UART_Communication](Day05_UART_Communication)  
@@ -27,27 +27,26 @@ The repository is organized into folders, each corresponding to a specific day a
 ├── [Day16_Infrared_Sensor](Day16_Infrared_Sensor)  
 ├── [Day17_Bluetooth_Communication](Day17_Bluetooth_Communication)  
 ├── [Day18_WiFi_Communication](Day18_WiFi_Communication)  
-├── [Day19_LoRa_Communication](Day19_LoRa_Communication)  
-└── [Day20_AHT10_I2C_UART](Day20_AHT10_I2C_UART)  
+└── [Day19_LoRa_Communication](Day19_LoRa_Communication)  
+ 
 
 
-Each folder contains:
-- **README.md**: A detailed explanation of the day's project.
-- **Code**: Source code for the project.
-- **Schematics**: Circuit diagrams (if applicable).
-- **Images**: Photos or screenshots related to the project.
+Each file contains:
+- **finding.pdf**: A detailed explanation of the day's project.
+- **main.c**: Source code for the project.
+- **Schematic.png**: Circuit diagrams (if applicable).
 
 ## Detailed Overview of Each Day
 
-### Day 1: Blink LED
+### Day 1: Control_LED_using_interrupt
 **Objective**: Learn the basics of controlling an LED with your microcontroller.
-- **Folder**: `Day01_Blink_LED`
-- **Description**: Simple project to blink an LED at a regular interval.
+- **Folder**: `Day01_Cpontrol_LED_using_interrupt`
+- **Description**: Simple project to turn an LED ON/OFF when using interrupt and a timer for debouncing.
 
-### Day 2: Button Interrupt
-**Objective**: Use an interrupt to detect a button press and toggle an LED.
-- **Folder**: `Day02_Button_Interrupt`
-- **Description**: Demonstrate the use of hardware interrupts to handle button presses.
+### Day 2: AHT10 I2C UART
+**Objective**: Read temperature and humidity from AHT10 sensor using I2C and display it via UART.
+- **Folder**: `Day2_AHT10_I2C_UART`
+- **Description**: Interface with the AHT10 sensor over I2C and send the data to a PC via UART.
 
 ### Day 3: PWM LED
 **Objective**: Control the brightness of an LED using PWM.
@@ -133,11 +132,6 @@ Each folder contains:
 **Objective**: Establish long-range communication using LoRa technology.
 - **Folder**: `Day19_LoRa_Communication`
 - **Description**: Implement LoRa for long-range, low-power communication.
-
-### Day 20: AHT10 I2C UART
-**Objective**: Read temperature and humidity from AHT10 sensor using I2C and display it via UART.
-- **Folder**: `Day20_AHT10_I2C_UART`
-- **Description**: Interface with the AHT10 sensor over I2C and send the data to a PC via UART.
 
 ## Getting Started
 
