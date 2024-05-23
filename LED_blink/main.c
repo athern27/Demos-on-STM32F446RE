@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -56,7 +56,7 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+bool state=true;
 /* USER CODE END 0 */
 
 /**
@@ -235,8 +235,22 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 
-	if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_13)) {
-		  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+	if(GPIO_Pin == GPIO_PIN_13 && state == true){
+		HAL_TIM_Base_Start_IT(&htim3);
+		state = false;
+	}
+	else{
+		__NOP();
+	}
+
+}
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+	if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){
+		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+		state = true;
+		HAL_TIM_Base_Stop_IT(&htim3);
 	}
 
 }
